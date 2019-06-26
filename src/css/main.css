@@ -7,7 +7,6 @@
  */
 /* Document
    ========================================================================== */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -420,10 +419,6 @@ html {
 *::after {
   box-sizing: inherit; }
 
-* {
-  margin: 0;
-  padding: 0; }
-
 /**
  * Basic styles for links
  */
@@ -433,11 +428,6 @@ a {
   a:hover, a:active, a:focus {
     color: #222222;
     text-decoration: underline; }
-
-li, a, button {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px; }
 
 /**
  * Basic typography style for copy text
