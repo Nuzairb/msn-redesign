@@ -1,0 +1,38 @@
+/* PROJECT SASS FILE 
+  ===================================
+*/
+/* VARIABLES */
+/* FONTS */
+/* MIXINS */
+/* CONTENT */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  padding: 20px;
+  width: 100%;
+  background-color: #220038;
+  color: #F5F5F5;
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.6;
+  font-size: 16px; }
+
+h1 {
+  margin-bottom: 40px; }
+
+p {
+  padding-bottom: 20px; }
+
+a {
+  text-decoration: none;
+  color: #ff4c8d;
+  font-weight: bold;
+  padding: 5px; }
+  a:hover, a:focus {
+    text-decoration: underline; }
+
+/* HEADER */
+/* FOOTER */
+/* HOME PAGE */

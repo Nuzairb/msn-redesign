@@ -1,0 +1,16 @@
+/* PROJECT SASS FILE 
+  ===================================
+*/
+
+// ===== BASE =====
+@import 'base/variables';
+@import 'base/fonts';
+@import 'base/mixins';
+// ===== VENDOR =====
+// ===== LAYOUT =====
+@import 'layout/content';
+@import 'layout/header';
+@import 'layout/footer';
+// ===== COMPONENTS =====
+// ===== PAGES =====
+@import 'pages/home';
