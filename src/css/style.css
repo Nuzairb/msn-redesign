@@ -610,3 +610,6 @@ header {
   .sm-news-card p {
     font-size: 12px;
     padding: 10px; }
+  .sm-news-card .news-source {
+    position: relative;
+    top: 20%; }
