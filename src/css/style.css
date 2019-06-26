@@ -409,6 +409,9 @@ template {
 html {
   box-sizing: border-box; }
 
+body {
+  background-color: #f4f4f2; }
+
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
  * Since `*` has a specificity of 0, it does not override the `html` value
@@ -428,22 +431,23 @@ html {
  * Basic styles for links
  */
 a {
-  color: #e50050;
+  color: #333333;
   text-decoration: none; }
   a:hover, a:active, a:focus {
-    color: #222222;
+    color: #333333;
     text-decoration: underline; }
 
 li, a, button {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 16px; }
+  font-size: 16px;
+  text-decoration: none; }
 
 /**
  * Basic typography style for copy text
  */
 body {
-  color: #222222;
+  color: #333333;
   font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 /**
@@ -500,3 +504,33 @@ body {
   padding: 0;
   position: absolute;
   width: 1px; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%; }
+
+.logo {
+  cursor: pointer; }
+
+.box input {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: .5s; }
+
+.box input[type="text"] {
+  background: #fff; }
+
+.nav__links {
+  list-style: none; }
+  .nav__links li {
+    display: inline-block;
+    padding: 0px 10px; }
+    .nav__links li a {
+      transition: all 0.3s ease 0s;
+      text-decoration: none; }
+      .nav__links li a:hover {
+        color: #0088a9; }
